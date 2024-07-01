@@ -1,10 +1,11 @@
-import styles from "./styles.module.css";
+import Link from "next/link";
+import styles from "./CreatePostNavigator.module.css";
 
-export default function App() {
+export default function CreatePostNavigator() {
   return (
     <div className={styles.createPostNavigator}>
       <h2>Have something share?</h2>
-      <a>Create Post</a>
+      <Link href="/CreatePostPage">Create Post</Link>
     </div>
   );
 }

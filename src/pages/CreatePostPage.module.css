@@ -1,0 +1,36 @@
+.createPostContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: c;
+  width: 80%;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.createPostContainer span {
+  display: flex;
+  flex-direction: column;
+  min-width: 50%;
+  margin: 10px 0px;
+}
+
+.createPostContainer label {
+  margin: auto;
+}
+
+.createPostContainer input[type="file"] {
+  margin-left: 35%;
+}
+
+.createPostContainer input,
+.createPostContainer textarea {
+  border-radius: 8px;
+}
+.createPostContainer textarea {
+  height: 300px;
+}
+
+.createPostContainer input {
+  height: 30px;
+}

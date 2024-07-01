@@ -1,0 +1,11 @@
+.post {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.post > * {
+  padding: 10px 5px;
+}
