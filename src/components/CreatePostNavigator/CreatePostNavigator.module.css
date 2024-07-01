@@ -1,0 +1,16 @@
+.createPostNavigator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--primary-color400);
+}
+
+.createPostNavigator > * {
+  margin: 5px 0px;
+}
+
+.createPostNavigator a {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  color: var(--accent-color-3);
+}
