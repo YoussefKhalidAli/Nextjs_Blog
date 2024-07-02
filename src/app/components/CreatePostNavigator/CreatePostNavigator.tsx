@@ -5,7 +5,7 @@ export default function CreatePostNavigator() {
   return (
     <div className={styles.createPostNavigator}>
       <h2>Have something share?</h2>
-      <Link href="/CreatePostPage">Create Post</Link>
+      <Link href="/pages/createpost">Create Post</Link>
     </div>
   );
 }

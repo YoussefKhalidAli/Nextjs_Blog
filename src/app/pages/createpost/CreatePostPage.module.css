@@ -34,3 +34,17 @@
 .createPostContainer input {
   height: 30px;
 }
+
+.createPostContainer button {
+  width: 80px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.createPostContainer button:active {
+  background-color: var(--accent-color-1);
+}
