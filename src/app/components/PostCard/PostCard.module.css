@@ -1,6 +1,7 @@
 .post {
   display: flex;
   align-items: center;
+  min-width: 80vw;
   margin: 0px 10vw;
   background-color: var(--background-color);
   text-decoration: none;
@@ -32,6 +33,7 @@
   .post {
     flex-direction: column;
     width: 70vw;
+    margin: 10px 0px;
   }
 
   .post img {
