@@ -9,6 +9,8 @@
 }
 
 .navBar h1 {
+  height: 32px;
   text-decoration: none !important;
   color: var(--text-color);
+  overflow: hidden;
 }

@@ -1,9 +1,12 @@
 import { configureStore, createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { boolean } from "yup";
 
 export interface Post {
+  id: number;
   title: string;
-  content: string;
+  body: string;
   image: string;
+  dateCreated: Date;
 }
 
 interface PostsState {
@@ -19,6 +22,10 @@ const postsSlice = createSlice({
   initialState,
   reducers: {
     addPost(state, action: PayloadAction<Post>) {
+      const isExists: number = state.posts.findIndex(
+        (post) => post.title === action.payload.title
+      );
+      if (isExists >= 0) return;
       state.posts.push(action.payload);
     },
   },

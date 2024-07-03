@@ -1,0 +1,57 @@
+@keyframes squiggle {
+  0% {
+    stroke-dasharray: 0, 100;
+  }
+  10% {
+    stroke-dasharray: 10, 100;
+  }
+  20% {
+    stroke-dasharray: 20, 100;
+  }
+  30% {
+    stroke-dasharray: 30, 100;
+  }
+  40% {
+    stroke-dasharray: 40, 100;
+  }
+  50% {
+    stroke-dasharray: 50, 100;
+  }
+  60% {
+    stroke-dasharray: 60, 100;
+  }
+  70% {
+    stroke-dasharray: 70, 100;
+  }
+  80% {
+    stroke-dasharray: 80, 100;
+  }
+  90% {
+    stroke-dasharray: 90, 100;
+  }
+  100% {
+    stroke-dasharray: 100, 100;
+  }
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px; /* Adjust height as needed */
+  width: 100vw;
+}
+
+.squiggleLine {
+  width: 100px; /* Adjust width as needed */
+  height: 20px; /* Adjust height as needed */
+  margin: 5px 0; /* Adjust spacing between lines as needed */
+  animation: squiggle 01s infinite;
+}
+
+.squiggleLine path {
+  stroke: var(--accent-color-2); /* Adjust color as needed */
+  stroke-width: 4;
+  fill: none;
+}

@@ -1,0 +1,15 @@
+.display {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50px;
+  padding: 0px 10px;
+  border-radius: 8px;
+}
+
+.success {
+  background-color: var(--success-background);
+  border: 2px solid var(--success-border);
+}

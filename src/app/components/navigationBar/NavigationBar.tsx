@@ -1,5 +1,7 @@
+// Imported styles
 import styles from "./NavigationBar.module.css";
 
+// Imported utilities
 import Link from "next/link";
 
 export default function NavigationBar() {
