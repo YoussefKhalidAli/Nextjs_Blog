@@ -1,10 +1,12 @@
+"use client";
+
 // Imported styling
 import CreatePostNavigator from "@/app/components/CreatePostNavigator/CreatePostNavigator";
 
 // Imported utilities
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState, postsActions } from "@/app/store/store";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 
 // Imported components
