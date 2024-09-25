@@ -1,5 +1,4 @@
 import { configureStore, createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { boolean } from "yup";
 
 export interface Post {
   id: number;
