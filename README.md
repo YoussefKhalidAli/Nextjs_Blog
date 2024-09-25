@@ -18,4 +18,6 @@ Instruction:
               2: npm run dev
       Step 5: Enjoy the project
 
-Developer's note: The posts require an image to be uploaded. This web page transforms uploaded images to base64 and adds them to the posts. It is important to know that this is NOT a good practice, but since the project was made without a backend, this was the simplest way to add images. The best practice is to upload images to the project folder and then save the path to the post object, which is usually done in the backend. Please refer to another blog website made using MERN full-stack on this GitHub (https://github.com/YoussefKhalidAli/Blog-website) for a better understanding, but keep in mind that it is an old project, so the code might be a little messy.
+Developer's note 1: The posts require an image to be uploaded. This web page transforms uploaded images to base64 and adds them to the posts. It is important to know that this is NOT a good practice, but since the project was made without a backend(yet), this was the simplest way to add images. The best practice is to upload images to the project folder and then save the path to the post object, which is usually done in the backend. Please refer to another blog website made using MERN full-stack on this GitHub (https://github.com/YoussefKhalidAli/Blog-website) for a better understanding, but keep in mind that it is an old project, so the code might be a little messy.
+
+Developer's note 2: Project is incomplete. Go to the previouslt mentioned MERN project to get an idea of what's coming.
